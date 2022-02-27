@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>GEFLIX</title>
+</head>
+<body>
+    <div class="navbar">
+    <div class="navbar-container">
+        <div class="logo-container"><h1 class="logo">GEFLIX</h1></div>
+        <div class="menu-container">
+            <ul class="menu-list">
+                <a href="index.html"><li class="menu-list-item active">მთავარი</li></a>
+                <a href="contact.html"><li class="menu-list-item active">კონტაქტი</li></a>
+                <div class="w3-clear">
+                    <input type="text" placeholder="Search.." name="search" class="ra">
+                    <button type="button" class="r"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+            </ul>
+        </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="content-container">
+        <form action="https://formsubmit.co/kmc936669@gmail.com" method="POST">
+            <div id="contact-form">
+                <div>
+                    <h1>გამარჯობა</h1> 
+                    <h4>რაიმე თუ გაინტერესებს მომწერე. მადლობა წინასწარ.</h4> 
+                </div>
+                    <p id="failure">უი, შენი მესიჯი არ გაიგზავნა.</p>  
+                    <p id="success">გაგზავნა წარმატბულია. მადლობა!</p>
+            
+                       <form method="post" action="/">
+                        <div>
+                          <label for="name">
+                              <span class="required">სახელი: *</span> 
+                              <input type="text" id="name" name="name" value="" placeholder="შენი სახელი" required="required" tabindex="1" autofocus="autofocus" />
+                          </label> 
+                        </div>
+                        <div>
+                          <label for="email">
+                              <span class="required">ელ-ფოსტა: *</span>
+                              <input type="email" id="email" name="email" value="" placeholder="შენი ელ-ფოსტა" tabindex="2" required="required" />
+                          </label>  
+                        </div>
+                        <div>		          
+                          <label for="subject">
+                          <span>მიზეზი: </span>
+                              <select id="subject" name="subject" tabindex="4">   
+                                 <option value="hello">საიტს აქვს ხარვეზი</option>
+                                 <option value="quote">რაიმეს დამატება მინდა.</option>  
+                                 <option value="general">სხვა</option>
+                              </select>
+                          </label>
+                        </div>
+                        <div>		          
+                          <label for="message">
+                              <span class="required">შეტყობინება: *</span> 
+                              <textarea id="message" name="message" placeholder="თქვენი შეტყობინება დაწერეთ აქ." tabindex="5" required="required"></textarea> 
+                          </label>  
+                        </div>
+                        <div>		           
+                          <button name="submit" type="submit" id="submit" >გაგზავნა</button> 
+                        </div>
+                       </form>
+            
+                </div>
+    </div>
+</body>
+</html>
